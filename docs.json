@@ -9,24 +9,7 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
-        }
-      ]
-    },
-    "anchors": [
-      {
-        "anchor": "Status",
-        "tabs": [
+       "tabs": [
           {
             "tab": "Guides",
             "groups": [
@@ -84,14 +67,16 @@
               }
             ]
           }
-        ]
-      },
-      {
+        ],
+    "global": {
+      "anchors": [
+        {
         "anchor": "Status",
         "icon": "heart-pulse",
         "href": "https://status.epass.service.gov.scot"
-      }
-    ]
+        }
+      ]
+    }
   },
   "logo": {
     "light": "/logo/light.svg",

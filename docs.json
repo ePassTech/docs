@@ -9,19 +9,16 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "anchors": [
+    "products": [
       {
-        "anchor": "Untitled Anchor",
-        "tabs": [
+        "product": "Untitled Product",
+        "anchors": [
           {
-            "tab": "Documentation"
+            "anchor": "Status",
+            "icon": "heart-pulse",
+            "href": "https://status.epass.service.gov.scot/"
           }
         ]
-      },
-      {
-        "anchor": "Status",
-        "icon": "heart-pulse",
-        "href": "https://status.epass.service.gov.scot/"
       }
     ]
   },

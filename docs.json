@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "ePass",
   "colors": {
-    "primary": "#3070ff",
-    "light": "#06a2c9",
-    "dark": "#320cc9"
+    "primary": "#0065bd",
+    "light": "#d9effc",
+    "dark": "#00437e"
   },
   "favicon": "/favicon.svg",
   "navigation": {

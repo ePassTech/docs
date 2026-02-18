@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "willow",
   "name": "ePass",
   "colors": {
     "primary": "#4864f0",
@@ -10,6 +10,14 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "anchors": [
+      {
+        "anchor": "Untitled Anchor",
+        "tabs": [
+          {
+            "tab": "Documentation"
+          }
+        ]
+      },
       {
         "anchor": "Status",
         "icon": "heart-pulse",

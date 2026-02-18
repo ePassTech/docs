@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "maple",
   "name": "ePass",
   "colors": {
     "primary": "#4864f0",
@@ -111,5 +111,10 @@
      "cursor",
      "vscode"
    ]
+  },
+  "api": {
+    "playground": {
+      "proxy": false
+    }
   }
 }

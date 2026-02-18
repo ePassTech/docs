@@ -1,33 +1,42 @@
 ---
 title: "Welcome to ePass"
-description: "The component for Licences and registrations"
+description: "The digital licensing platform for Scotland"
 ---
 
 ## What is ePass
 
-<Card icon="rocket" horizontal href="/quickstart" title="Start here">
-  Follow our three step quickstart guide.
-</Card>
+ePass is a digital licensing platform operated on behalf of the Scottish Government. It manages licensing for tobacco retail, funeral directors, and food business registration across Scotland.
 
-## Integrated Components
+## Applications
 
-<Columns cols={2}>
-  <Card icon="lock-keyhole" horizontal href="/development" img="https://scotaccount.campaign.gov.scot/binaries/content/gallery/scotaccount/what_is_it_section_image-svg" title="ScotAccount">
-    Official SG SSO and ID verification
+<CardGroup cols={2}>
+  <Card icon="building-columns" title="app.epass" href="https://app.epass.service.gov.scot">
+    **Admin Portal** for Scottish Government licensing and enforcement teams. Process and manage licence applications, inspections, and compliance.
   </Card>
-  <Card icon="envelope" horizontal href="/essentials/navigation" img="https://static.notifications.service.gov.uk/images/product/proposition-illustration.png" title="Gov.uk Notify">
-    Email, sms and letter sending service
+  <Card icon="user" title="my.epass" href="https://my.epass.service.gov.scot">
+    **Applicant Hub** for citizens and business owners. Apply for licences, manage premises, and track applications all in one place.
   </Card>
-  <Card icon="server" horizontal href="https://cloud.campaign.gov.scot/" img="https://cloud.campaign.gov.scot/binaries/content/gallery/cloud/cloud-header-16_9-4-svg" title="SG Cloud">
-    Hosted on the SG AWS Cloud
+</CardGroup>
+
+## Integrated components
+
+<CardGroup cols={2}>
+  <Card icon="lock-keyhole" title="ScotAccount" img="https://scotaccount.campaign.gov.scot/binaries/content/gallery/scotaccount/what_is_it_section_image-svg" href="https://scotaccount.campaign.gov.scot/">
+    Official Scottish Government SSO and identity verification for citizens accessing the Applicant Hub.
   </Card>
-  <Card icon="money-bill" horizontal img="https://www.payments.service.gov.uk/images/pay-top-image-5f2b3404.png" title="Gov.uk Pay">
-    
+  <Card icon="envelope" title="Gov.uk Notify" img="https://static.notifications.service.gov.uk/images/product/proposition-illustration.png" href="https://www.notifications.service.gov.uk/">
+    Email, SMS, and letter sending service.
   </Card>
-  <Card icon="sparkles" horizontal img="https://designsystem.gov.scot/binaries/content/gallery/designsystem/page-header-graphic_1-1-svg/page-header-graphic_1-1-svg/publishing%3Axlargesixcolumnsdoubled" title="SG Design System">
-    WCAG 2.2 AA standards. 
+  <Card icon="server" title="SG Cloud" img="https://cloud.campaign.gov.scot/binaries/content/gallery/cloud/cloud-header-16_9-4-svg" href="https://cloud.campaign.gov.scot/">
+    Hosted on the Scottish Government AWS Cloud.
   </Card>
-  <Card icon="mailbox-flag-up" horizontal title="Mailbox">
-    
+  <Card icon="money-bill" title="Gov.uk Pay" img="https://www.payments.service.gov.uk/images/pay-top-image-5f2b3404.png" href="https://www.payments.service.gov.uk/">
+    Payment processing for licence fees.
   </Card>
-</Columns>
+  <Card icon="sparkles" title="SG Design System" img="https://designsystem.gov.scot/binaries/content/gallery/designsystem/page-header-graphic_1-1-svg/page-header-graphic_1-1-svg/publishing%3Axlargesixcolumnsdoubled" href="https://designsystem.gov.scot/">
+    WCAG 2.2 AA accessibility standards.
+  </Card>
+  <Card icon="building" title="Companies House" href="https://developer.company-information.service.gov.uk/">
+    Business registration and company data lookup.
+  </Card>
+</CardGroup>

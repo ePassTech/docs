@@ -26,6 +26,7 @@
             "group": "Getting started",
             "pages": [
               "index",
+              "development",
               "features"
             ]
           },
@@ -34,17 +35,6 @@
             "pages": [
               "authentication/login",
               "authentication/two-factor-authentication"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "groups": [
-          {
-            "group": "Changelog",
-            "pages": [
-              "changelog"
             ]
           }
         ]
@@ -68,6 +58,17 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Changelog",
+            "pages": [
+              "changelog"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -87,14 +88,14 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   }
 }

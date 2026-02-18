@@ -26,14 +26,25 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "development"
+              "features"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Authentication",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "authentication/login",
+              "authentication/two-factor-authentication"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Changelog",
+            "pages": [
+              "changelog"
             ]
           }
         ]

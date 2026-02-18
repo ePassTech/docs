@@ -1,0 +1,107 @@
+---
+title: 'Two-factor authentication'
+description: 'Add an extra layer of security to your ePass account with two-factor authentication (2FA)'
+---
+
+<Info>
+  **Prerequisites**:
+  - An ePass account
+  - An authenticator app installed on your mobile device
+</Info>
+
+Two-factor authentication (2FA) adds an extra layer of security to your account. When enabled, you need both your password and a time-based code from your authenticator app to sign in. This means that even if someone obtains your password, they cannot access your account without your authenticator device.
+
+2FA is optional in ePass. You can enable or disable it at any time from your Profile page.
+
+## Supported authenticator apps
+
+You can use any authenticator app that supports Time-based One-Time Passwords (TOTP). Common options include:
+
+- Google Authenticator
+- Microsoft Authenticator
+- Authy
+- 1Password
+
+## Enabling two-factor authentication
+
+<Steps>
+  <Step title="Go to your Profile page">
+    Navigate to your Profile page and find the **Two Factor Authentication** section.
+  </Step>
+  <Step title="Click Enable">
+    Click the **Enable** button to begin setup.
+  </Step>
+  <Step title="Confirm your password">
+    Enter your current password when prompted.
+  </Step>
+  <Step title="Scan the QR code">
+    A QR code is displayed on screen. Open your authenticator app and scan it. If you cannot scan the QR code, use the manual setup key shown below it to add the account to your app manually.
+  </Step>
+  <Step title="Enter the verification code">
+    Enter the 6-digit code from your authenticator app to confirm setup.
+  </Step>
+  <Step title="Save your recovery codes">
+    A set of recovery codes is displayed. Store these in a safe place immediately.
+
+    <Warning>
+      Save your recovery codes in a secure password manager or other safe location. You will need these codes to access your account if you lose your authenticator device. Each recovery code can only be used once.
+    </Warning>
+  </Step>
+</Steps>
+
+## Signing in with two-factor authentication
+
+<Steps>
+  <Step title="Enter your credentials">
+    Go to the login page and enter your email address and password as normal.
+  </Step>
+  <Step title="Enter your authentication code">
+    You are redirected to the **Two-Factor Confirmation** page. Enter the 6-digit code from your authenticator app.
+
+    If you do not have access to your authenticator app, click **Use a recovery code** and enter one of your recovery codes instead.
+  </Step>
+  <Step title="Click Log in">
+    Click **Log in** to complete the sign-in process.
+  </Step>
+</Steps>
+
+## Recovery codes
+
+Recovery codes allow you to access your account if you lose your authenticator device. Each code can only be used once.
+
+You can manage your recovery codes from the **Two Factor Authentication** section on your Profile page:
+
+- **View recovery codes** — Click to view your current recovery codes. You will need to confirm your password.
+- **Regenerate recovery codes** — Generate a new set of codes. This immediately invalidates all previously issued codes.
+
+<Warning>
+  After regenerating recovery codes, any old codes will stop working. Make sure to update them in your secure storage.
+</Warning>
+
+## Disabling two-factor authentication
+
+<Steps>
+  <Step title="Go to your Profile page">
+    Navigate to your Profile page and find the **Two Factor Authentication** section.
+  </Step>
+  <Step title="Click Disable">
+    Click the **Disable** button.
+  </Step>
+  <Step title="Confirm your password">
+    Enter your current password when prompted. Two-factor authentication is now turned off for your account.
+  </Step>
+</Steps>
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="My authentication codes are not working">
+    TOTP codes are time-based, so your device's clock must be accurate. Check that the date and time on your mobile device are set to update automatically. If the clock is out of sync by more than 30 seconds, codes may be rejected.
+  </Accordion>
+  <Accordion title="I lost access to my authenticator app">
+    Use one of your recovery codes to sign in. After signing in, you can disable 2FA and set it up again with your new device.
+  </Accordion>
+  <Accordion title="I lost my recovery codes and my authenticator device">
+    Contact the ePass support team at [support@epass.tech](mailto:support@epass.tech) for assistance with regaining access to your account.
+  </Accordion>
+</AccordionGroup>

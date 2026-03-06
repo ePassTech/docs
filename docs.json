@@ -26,8 +26,13 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "development",
               "features"
+            ]
+          },
+          {
+            "group": "Premises",
+            "pages": [
+              "premises/registration-numbers"
             ]
           },
           {
@@ -35,26 +40,6 @@
             "pages": [
               "authentication/login",
               "authentication/two-factor-authentication"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
             ]
           }
         ]
@@ -74,12 +59,6 @@
   },
   "logo": "/images/Screenshot2026-02-18at15.03.36.png",
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@epass.tech"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",

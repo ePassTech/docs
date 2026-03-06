@@ -30,6 +30,12 @@
             ]
           },
           {
+            "group": "Premises",
+            "pages": [
+              "premises/registration-numbers"
+            ]
+          },
+          {
             "group": "Authentication",
             "pages": [
               "authentication/login",
@@ -48,37 +54,11 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
       }
     ]
   },
   "logo": "/images/Screenshot2026-02-18at15.03.36.png",
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@epass.tech"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
@@ -87,14 +67,14 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   }
 }

@@ -36,6 +36,12 @@
             ]
           },
           {
+            "group": "Change requests",
+            "pages": [
+              "change-requests/overview"
+            ]
+          },
+          {
             "group": "Authentication",
             "pages": [
               "authentication/login",
